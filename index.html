@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card Animado</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="content">
+        <h2>01</h2>
+        <h3>Card um</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam atque impedit fugit sequi optio aspernatur natus, nostrum quis perspiciatis!</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>02</h2>
+        <h3>Card dois</h3>
+        <p>Ab id deleniti cumque repellendus totam aut corrupti dolore minus veritatis incidunt. Iusto est ipsam quia commodi eius cum.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+    <div class="card">
+      <div class="content">
+        <h2>03</h2>
+        <h3>Card tres</h3>
+        <p>Nisi magnam vel alias sequi cum molestiae nobis, rerum minima voluptatem? Atque, magnam error in quibusdam deleniti iure magni.</p>
+        <a href="#">Read More</a>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript" src="vanilla-tilt.js"></script>
+  <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+      max: 25,
+      speed: 400,
+      glare: true,
+      "max-glare": 1
+	  });
+  </script>
+</body>
+</html>
