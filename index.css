@@ -78,7 +78,7 @@ body::after {
 }
 .containerItens .card .content h2 {
   position: absolute;
-  top: -80px;
+  top: -40px;
   right: 30px;
   font-size: 8em;
   color: rgba(255, 255, 255, 0.05);
