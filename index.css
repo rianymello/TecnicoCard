@@ -111,6 +111,7 @@ body::after {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
 }
  
@@ -119,3 +120,4 @@ body::after {
   font-family: 'Comfortaa', cursive;
   font-size: 57px;
 }
+
