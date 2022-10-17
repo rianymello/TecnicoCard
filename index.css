@@ -121,3 +121,29 @@ body::after {
   font-size: 57px;
 }
 
+.Btns {
+  display:flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.btnVideo , .btnEntrevista {
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+.btnVideo:hover {
+  background-color: #ff0099;
+}
+.btnEntrevista:hover {
+  background-color: #ff0099;
+}
