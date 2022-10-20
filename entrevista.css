@@ -47,7 +47,7 @@ body::after {
 
 .content {
     background-color: rgb(12, 12, 20);
-    width: 850px;
+    width: 700px;
     height: 470px;
     padding: 30px;
 }
@@ -65,25 +65,40 @@ color: rgba(255, 255, 255, 0.726);
 .conteudoTotal {
   display: flex;
   flex-direction: column;
-  margin-top: 190px;
+  margin-top: 55px;
   align-items: center;
 }
 
 .titulo {
   font-size: 52px;
+  margin-left: -66px;
 }
 
 .footer {
   display: flex;
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #00000023;
   height: auto;
   width: 750px;
   padding: 20px;
   align-items: row;
-  gap: 12px;
 }
 
 .imagem {
   width: 50px;
+  margin-right: 10px;
 }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  gap: 150px;
+  align-items:center;
+}
+
+
+.voltar {
+  width: 50px;
+}
+

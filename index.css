@@ -128,8 +128,3 @@ body::after {
   align-items: center;
   justify-content: center;
 }
-.Btns {
-  display:flex;
-  flex-direction: column;
-  gap: 5px;
-}
