@@ -1,5 +1,5 @@
 var div = document.getElementById('log');
-var textos = ['Apresentação: O que é um tecnico?','Turma 22 TGPSI','Grupo', 'Jeremias Rivarola',
+var textos = ['Apresentação: O que é um técnico?','Turma 22 TGPSI','Grupo 5', 'Jeremias Rivarola',
  'Pedro Bonner', 'Daniel Araujo',
   'Pedro Elias'];
  

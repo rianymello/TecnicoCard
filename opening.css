@@ -58,7 +58,7 @@ h1, h3 {
 
   display: block;
   padding:10px 43px;
-  margin-top: 60px;
+  margin-top: 70px;
   font-size: large;
   background: #fff;
   color: #000;
@@ -75,7 +75,9 @@ h1, h3 {
 }
 
 .btn-start:hover {
-  background-color: #ff0099;
+  background-color: #b700ff;
+  font-size: 40px;
+  cursor:grab ;
 }
 
 .typed-cursor {
@@ -86,7 +88,9 @@ h1, h3 {
 
 .content { 
   color: white;
-  font-size: large;
+  font-size: 60px;
+  height: 60px;
+  margin-top: 300px;
 }
 
 
