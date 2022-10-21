@@ -105,7 +105,13 @@ body::after {
   text-decoration: none;
   font-weight: 500;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
 }
+
+.containerItens .card .content a:hover {
+  background-color: rgb(143, 143, 143);
+}
+
 
 .containerAll {
     display: flex;
