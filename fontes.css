@@ -36,14 +36,106 @@ body::after {
   height: 100%;
   background: linear-gradient(#8b4971, #8407ea);
   clip-path: circle(20% at 10% 10%);
-}
 
+}
 .container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  flex-wrap: wrap;
+  z-index: 1;
+
+  }
+  .container .card {
     position: relative;
+    width: 800px;
+    height: 400px;
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1200px;
-    flex-wrap: wrap;
-    z-index: 1;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
   }
+  .container .card .content {
+    text-align: center;
+    opacity: 1;
+    transition: 0.5s; 
+    animation: fadeIn 2s ease-in-out;
+    
+   
+  }
+
+  .container .card .content h2 {
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    font-size: 7em;
+    color: #ffffff0d;
+    pointer-events: none;
+  }
+  .container .card .content h3 {
+    font-size: 1.8em;
+    color: #fff;
+    z-index: 1;
+    
+
+  }
+  .container .card .content p {
+    font-size: 15px;
+    color: #fff;
+    margin-left: 60px;   
+    margin-right: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .botao {
+    
+    padding: 8px 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    transition-duration: 0.4s;
+  }
+
+  .botao:hover{
+    background-color: #b700ff;
+    color: #fff;
+  }
+  .link{
+    padding: 8px 20px;
+    background: #fff;
+    color: #000;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.4s;
+  }
+  .link:hover{
+    background-color: #ff0099;
+    color: #fff;
+  }
+  
+  .contentlinks{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 5px;
+
+  }
+  

@@ -47,8 +47,29 @@ body::after {
 }
 
 .content {
-    margin-top: 250px;
-    background-color: rgb(255, 255, 255);
+    margin-top: 200px;
+    background-color: rgba(255, 255, 255, 0);
     width: 850px;
     height: 470px;
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+.btn {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 40px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+   background-color: #8407ea; 
+   color: #fff;
+   transition-duration: 0.4s;
 }
