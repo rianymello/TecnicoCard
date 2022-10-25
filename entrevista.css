@@ -50,7 +50,7 @@ body::after {
     width: 700px;
     height: 500px;
     padding: 30px;
-    margin-top: 1.2rem ;
+    margin-top: 5px ;
 }
 
 h1 , h3{
@@ -58,30 +58,37 @@ h1 , h3{
     color: white;
 }
 
-p {
+.baixo {
 
-color: rgba(255, 255, 255, 0.726);
-font-size: 15px;
+  color: rgba(255, 255, 255, 0.726);
+  font-size: 13px;
+}
+  
+.cima {
+
+    color: rgba(255, 255, 255, 0.726);
+    font-size: 15px;
 }
 
 .conteudoTotal {
   display: flex;
   flex-direction: column;
-  margin-top: 6rem;
+  margin-top: 55px;
   align-items: center;
 }
 
 .titulo {
-  font-size: 4rem;
-  margin-left: -66px;
+  font-size: 90px;
+  margin-left: -120px;
 }
 
 .footer {
   display: flex;
   margin-top: 20px;
+  margin-bottom: 35px;
   background-color: #00000023;
   height: auto;
-  width: 750px;
+  width: 540px;
   padding: 20px;
   align-items: row;
 }
@@ -94,13 +101,23 @@ font-size: 15px;
 .header {
   display: flex;
   flex-direction: row;
-  justify-content:space-around;
-  gap: 150px;
-  align-items:center;
+  align-items: baseline;
+  gap: 140px;
+
 }
 
 
 .voltar {
   width: 50px;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition-duration: 0.4s;
+  margin-top: 25px;
 }
 
