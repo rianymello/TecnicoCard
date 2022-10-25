@@ -48,7 +48,7 @@ body::after {
 
 .content {
     margin-top: 250px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0);
     width: 850px;
     height: 470px;
 }
