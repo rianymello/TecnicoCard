@@ -121,3 +121,8 @@ h1 , h3{
   margin-top: 25px;
 }
 
+.voltar:hover {
+  background-color: #ff0099;
+  transition-duration: 0.4s;
+}
+
