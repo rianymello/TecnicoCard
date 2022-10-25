@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
-
 @keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-  }
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
 
 * {
   margin: 0;
@@ -15,10 +13,10 @@
 body {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: top;
   min-height: 100vh;
   background: #161623;
-  animation: fadeIn 2s ease-in-out;
+  animation: fadeIn 4s ease-in-out;
 }
 body::before {
   position: absolute;
@@ -27,7 +25,7 @@ body::before {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgb(8, 0, 96), rgb(105, 0, 105));
+  background: linear-gradient(#080060, #690069);
   clip-path: circle(30% at right 70%);
 }
 body::after {
@@ -37,136 +35,75 @@ body::after {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(#ff0099, #8407ea);
+  background: linear-gradient(#8b4971, #8407ea);
   clip-path: circle(20% at 10% 10%);
 }
-.containerItens {
-  position: relative;
+
+.conteudoPrincipal {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  max-width: 1200px;
-  flex-wrap: wrap;
-  z-index: 1;
-}
-.containerItens .card {
-  position: relative;
-  width: 280px;
-  height: 400px;
-  margin: 30px;
-  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-top: 1px solid rgba(255, 255, 255, 0.5);
-  border-left: 1px solid rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(5px);
-}
-.containerItens .card .content {
-  padding: 20px;
-  text-align: center;
-  transform: translateY(100px);
-  opacity: 0;
-  transition: 0.5s;
-}
-.containerItens .card:hover .content {
-  transform: translateY(0px);
-  opacity: 1;
-}
-.containerItens .card .content h2 {
-  position: absolute;
-  top: -40px;
-  right: 30px;
-  font-size: 8em;
-  color: rgba(255, 255, 255, 0.05);
-  pointer-events: none;
-}
-.containerItens .card .content h3 {
-  font-size: 1.8em;
-  color: #fff;
-  z-index: 1;
-}
-.containerItens .card .content p {
-  font-size: 1em;
-  color: #fff;
-  font-weight: 300;
-}
-.containerItens .card .content a {
-  position: relative;
-  display: inline-block;
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #fff;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  transition-duration: 0.4s;
-}
-
-.containerItens .card .content a:hover {
-  background-color: rgb(143, 143, 143);
-}
-
-
-.containerAll {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-
-}
- 
-.title {
-  color: #fff;
-  font-family: 'Comfortaa', cursive;
-  font-size: 57px;
-}
-
-.Btns {
-  display:flex;
   flex-direction: column;
-  gap: 5px;
+  align-items: center ;
+  gap: 35px;
+}
+
+.logo-etap {
+  width: 300px;
+  margin-top: 250px;
+}
+
+h1, h3 {
+  color: rgb(255, 255, 255);
+}
+
+.btn-start {
+
+  display: block;
+  padding:10px 43px;
+  margin-top: 70px;
+  font-size: large;
+  background: #fff;
+  color: #000;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   align-items: center;
   justify-content: center;
-}
-
-.btnVideo, .btnEntrevista {
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #fff;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.btnWeb {
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #fff;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.btnVideo:hover{
-  background-color: #ff0099;
   transition-duration: 0.4s;
-}
-.btnEntrevista:hover{
-  background-color: #ff0099;
-  transition-duration: 0.4s;
+  margin-bottom: 100px;
+  font-size: 22px;
+
 }
 
-.btnWeb:hover{
-  background-color: #ff0099;
-  transition-duration: 0.4s;
+.btn-start:hover {
+  background-color: #b700ff;
+  font-size: 40px;
+  cursor:grab ;
+}
+
+.typed-cursor {
+  opacity: 1;
+  -webkit-animation: blink 0.7s infinite;
+          animation: blink 0.7s infinite;
+}
+
+.content { 
+  color: white;
+  font-size: 45px;
+  height: 60px;
+}
+
+
+@keyframes blink {
+  0%, 100% { opacity:1 }
+  50%      { opacity:0 }
+}
+
+@-webkit-keyframes blink {
+  0%, 100% { opacity:1 }
+  50%      { opacity:0 }
+}
+
+.logo {
+  margin-top: 89px;
 }
