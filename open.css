@@ -135,18 +135,7 @@ body::after {
   justify-content: center;
 }
 
-.btnVideo, .btnEntrevista {
-  padding: 8px 20px;
-  margin-top: 15px;
-  background: #fff;
-  color: #000;
-  border-radius: 20px;
-  text-decoration: none;
-  font-weight: 500;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-}
-
-.btnWeb {
+.btnVideo, .btnEntrevista , .btnWeb{
   padding: 8px 20px;
   margin-top: 15px;
   background: #fff;
@@ -160,13 +149,18 @@ body::after {
 .btnVideo:hover{
   background-color: #ff0099;
   transition-duration: 0.4s;
+  color: #ffffff;
+
 }
 .btnEntrevista:hover{
   background-color: #ff0099;
   transition-duration: 0.4s;
+  color: #ffffff;
+
 }
 
 .btnWeb:hover{
   background-color: #ff0099;
   transition-duration: 0.4s;
+  color: #ffffff;
 }
