@@ -112,6 +112,9 @@ body::after {
     
 
   }
+  .botao:hover{
+    background-color: #b700ff;
+  }
   .link{
     padding: 8px 20px;
     background: #fff;
@@ -123,8 +126,9 @@ body::after {
 
   }
   .link:hover{
-    
+    background-color: #b700ff;
   }
+  
   .contentlinks{
     display: flex;
     flex-direction: row;
@@ -132,3 +136,4 @@ body::after {
     gap: 5px;
 
   }
+  
