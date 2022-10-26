@@ -1,6 +1,6 @@
 var div = document.getElementById('log');
 var textos = ['Apresentação: O que é um técnico?','Turma 22 TGPSI','Grupo 5', 'Jeremias Rivarola',
- 'Pedro Bonner', 'Daniel Araujo',
+ 'Pedro Bonner', 'Daniel Araújo',
   'Pedro Elias'];
  
 function escrever(str, done) {
