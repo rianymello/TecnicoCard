@@ -109,11 +109,12 @@ body::after {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    
-
+    transition-duration: 0.4s;
   }
+
   .botao:hover{
     background-color: #b700ff;
+    color: #fff;
   }
   .link{
     padding: 8px 20px;
@@ -123,10 +124,11 @@ body::after {
     text-decoration: none;
     font-weight: 500;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-
+    transition-duration: 0.4s;
   }
   .link:hover{
-    background-color: #b700ff;
+    background-color: #ff0099;
+    color: #fff;
   }
   
   .contentlinks{

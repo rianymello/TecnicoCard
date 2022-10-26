@@ -76,6 +76,7 @@ body::after {
   transform: translateY(0px);
   opacity: 1;
 }
+
 .containerItens .card .content h2 {
   position: absolute;
   top: -40px;
@@ -109,7 +110,8 @@ body::after {
 }
 
 .containerItens .card .content a:hover {
-  background-color: rgb(143, 143, 143);
+  background-color: rgb(80, 80, 80);
+  color: rgb(255, 255, 255);
 }
 
 
