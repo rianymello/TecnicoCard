@@ -166,3 +166,8 @@ body::after {
   transition-duration: 0.4s;
   color: #ffffff;
 }
+
+.home {
+  width: 40px;
+  height: 40px;
+}
