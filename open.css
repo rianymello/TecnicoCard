@@ -120,7 +120,8 @@ body::after {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
  
 .title {
