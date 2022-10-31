@@ -69,9 +69,17 @@ body::after {
   padding: 20px;
   text-align: center;
   transform: translateY(100px);
-  opacity: 0;
   transition: 0.5s;
 }
+
+.partToHide {
+  opacity: 0;
+}
+
+.card:hover .partToHide {
+  opacity: 1;
+}
+
 .containerItens .card:hover .content {
   transform: translateY(0px);
   opacity: 1;
